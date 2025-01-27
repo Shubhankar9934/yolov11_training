@@ -1,0 +1,27 @@
+# Dataset configuration
+train: dataset/images/train/images
+val: dataset/images/val/images
+
+# Label paths
+train_labels: dataset/images/train/labels
+val_labels: dataset/images/val/labels
+
+# Number of classes
+nc: 1
+
+# Class names
+names: ['object']
+
+# Dataset statistics
+stats:
+  train_images: 0
+  val_images: 0
+  train_labels: 0
+  val_labels: 0
+
+# Image properties
+img_size: 640
+channels: 3
+
+# Download command/URL (optional)
+# download: https://ultralytics.com/assets/coco128.zip
